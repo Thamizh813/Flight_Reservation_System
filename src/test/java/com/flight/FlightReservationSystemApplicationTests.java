@@ -1,9 +1,9 @@
-package com.example.demo;
+package com.flight;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = FlightReservationSystemApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class FlightReservationSystemApplicationTests {
 
 	@Test

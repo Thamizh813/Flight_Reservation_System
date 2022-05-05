@@ -2,11 +2,11 @@ version: 0.2
 phases:
   build:
     commands:
-    - echo Entered the build phase...
+      - echo Entered the build phase...
   post_build:
     commands:
-    - echo Build completed successfully
+      - echo Build completed successfully
 artifacts:
   files:
-  - target/flight_reservation_system.jar
+    - target/flight_reservation_system.jar
   discard-paths: yes

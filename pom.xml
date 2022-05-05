@@ -84,7 +84,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>flight_reservation_system</finalName>
+		<finalName>FlightReservationSystem</finalName>
 	</build>
 
 </project>

@@ -101,7 +101,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		
+	<finalName>FlightReservationSystem</finalName>
 	</build>
 
 </project>

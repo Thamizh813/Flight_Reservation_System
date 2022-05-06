@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/*.jar
+    - target/FlightReservationSystem.jar
   discard-paths: yes

@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @EnableFeignClients
-public class FlightReservationSystemApplication extends SpringBootServletInitializer  {
+public class FlightReservationSystemApplication   {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FlightReservationSystemApplication.class, args);
